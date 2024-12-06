@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Product</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">RKzone</div>
+        <div class="searchBar">
+            <input type="text" placeholder="Search" class="search-input">
+            <button class="searchButton">Search</button>
+        </div>
+        <div class="categories">
+            <button class="all category-btn" data-category="all">All Products</button>
+            <button class="electronics category-btn"data-category="electronics">Electronics</button>
+            <button class="clothing category-btn" data-category="clothing">Clothing</button>
+            <button class="homeNgarden category-btn" data-category="homeNgarden">Home & Garden</button>
+        </div>
+    </div>
+    <div class="items">
+        <div class="item" data-category="electronics">
+            <h3>SmartPhone</h3>
+            <p>Description of SmartPhone</p>
+        </div>
+        <div class="item" data-category="clothing">
+            <h3>T-Shirt</h3>
+            <p>Description of T-Shirt</p>
+        </div>
+        <div class="item" data-category="homeNgarden">
+            <h3>Coffee Maker</h3>
+            <p>Description of Coffee Maker</p>
+        </div>
+        <div class="item" data-category="electronics">
+            <h3>Laptop</h3>
+            <p>Description of Laptop</p>
+        </div>
+        <div class="item" data-category="homeNgarden">
+            <h3>Blender</h3>
+            <p>Description of Blender</p>
+        </div>
+        <div class="item" data-category="clothing">
+            <h3>Hoodie</h3>
+            <p>Description of Hoodie</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

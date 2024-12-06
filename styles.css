@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    height: 100px;
+    color: white;
+    background-color:#124432;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    font-size: 50px;
+}
+.searchBar{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.searchBar input{
+    font-size: 15px;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.searchBar button{
+    font-size:15px;
+    height:40px ;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+}
+.categories button{
+    font-size: 15px;
+    height:40px ;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+}
+.all{
+    background-color:#87C38F;
+}
+.electronics{
+    background-color: #87C38F;
+}
+.clothing{
+    background-color: #87C38F;
+}
+.homeNgarden{
+    background-color: #87C38F;
+}
+.searchBar button:hover{
+    background-color: #F4F0BB;
+}
+.categories button:hover{
+    text-decoration: underline;
+}
+.items {
+    padding-top: 50px;
+    display: flex;
+    padding-left: 30px;
+    justify-content:left;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap to ensure consistent spacing */
+}
+
+.item {
+    background-color: #D7434D;
+    text-align: center;
+    height: 150px;
+    flex: 1 1 calc(25% - 40px); /* Ensure four items per row */
+    max-width: 300px; /* Prevent growing beyond this */
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+.active{
+    background-color:#F4F0BB ;
+}
